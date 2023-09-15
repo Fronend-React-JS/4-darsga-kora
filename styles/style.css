@@ -1,0 +1,736 @@
+:root {
+  --title-text-color: #023f3a;
+  --white-text-color: #fff;
+  --black-text-color: #18191f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 1440px;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  /* margin: 0 auto; */
+}
+
+.header-container {
+  padding: 16px 165px 16px 184px;
+  justify-content: space-between;
+}
+
+.header-container img {
+  max-width: 172px;
+  height: auto;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__menu li {
+  list-style: none;
+}
+
+.header__menu a {
+  text-decoration: none;
+
+  color: var(--black-text-color);
+  font-family: "Josefin Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.header__menu a:hover {
+  color: var(--title-text-color);
+}
+
+.header__menu button {
+  padding: 10px 22px;
+  border: 2px solid #c13512;
+  background: #c13512;
+  transition: all 0.4s;
+  color: #fff;
+}
+
+.header__menu button:hover {
+  background: transparent;
+  border: 2px solid #c13512;
+  color: #18191f;
+  border-radius: 5px;
+}
+
+/* main css */
+
+main {
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+}
+
+.hero-container {
+  width: 1440px;
+  height: 736px;
+  background-image: url(../images/backimage.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 64px;
+}
+
+.hero-container h1 {
+  width: 800px;
+  color: var(--white-text-color);
+  text-align: center;
+  font-family: "Libre Baskerville";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+  margin-top: 119px;
+}
+
+.hero-container p {
+  width: 600px;
+  color: var(--white-text-color);
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.hero-container__buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.hero-container__buttons button {
+  padding: 15px 50px;
+  border: 2px solid white;
+  background-color: transparent;
+
+  color: var(--white-text-color);
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.46px;
+  margin-top: 50px;
+  transition: all 0.5s;
+  margin-bottom: 60px;
+}
+
+.hero-container__buttons button:hover {
+  border: 2px solid transparent;
+  background-color: var(--white-text-color);
+  color: var(--black-text-color);
+  border-radius: 5px;
+}
+
+.hero-container img {
+  max-width: 825px;
+}
+
+/* hero-main css */
+
+.hero-main {
+  max-width: 1442px;
+  height: auto;
+  gap: 30px;
+}
+
+.hero-main__block1 h1 {
+  width: 445px;
+  color: var(--title-text-color);
+  font-family: "Libre Baskerville";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  margin-bottom: 30px;
+  margin-top: 130px;
+}
+
+.hero-main__block1 {
+  margin: 42px 0 0 164px;
+}
+
+.hero-main__block1 p {
+  width: 632px;
+  color: var(--black-text-color);
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 23.4px */
+}
+
+.block1__benifits {
+  width: 550px;
+  height: 202px;
+  display: flex;
+}
+
+.icon-text {
+  margin-top: 30px;
+  gap: 31px;
+  width: 243px;
+  display: flex;
+  margin-bottom: 26px;
+  align-items: center;
+}
+
+.icon-text p {
+  color: var(--black-text-color);
+  font-family: "Libre Baskerville";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.hero-main__block2 {
+  margin-top: 120px;
+}
+
+.first-img {
+  margin-bottom: 30px;
+  transition: all 0.5s;
+}
+
+.first-img:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.two-in-one img {
+  margin-right: 30px;
+  transition: all 0.5s;
+}
+
+.two-in-one img:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.benifits__img {
+  display: flex;
+  justify-content: space-between;
+}
+.block1__benifits {
+  position: relative;
+}
+
+.block1__benifits .pro-gram {
+  position: absolute;
+  top: 125px;
+}
+
+/* hero--main2 css */
+
+.hero--main2 {
+  max-width: 1110px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.hero--main2 h1 {
+  color: #023f3a;
+  text-align: center;
+  font-family: "Libre Baskerville";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: 64px;
+}
+
+.hero--main2__choose {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 64px;
+}
+
+.hero--main2__choose img {
+  transition: all 0.5s;
+}
+
+.hero--main2 img:hover {
+  transform: scale(1.2, 1.2);
+}
+
+/* hero--main3 css */
+
+.hero--main3 {
+  max-width: 1440px;
+  width: 100%;
+  height: 533px;
+  height: auto;
+  background: #f2eee9;
+  padding: 64px;
+}
+
+.hero--main3 h1 {
+  color: var(--title-text-color);
+  text-align: center;
+  font-family: "Libre Baskerville";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  margin-bottom: 50px;
+}
+
+.hero--main3__information {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+}
+
+.information--first-on {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  width: 327px;
+  height: auto;
+  gap: 30px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.information--first-on p {
+  color: var(--black-text-color);
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.information--first-on h3 {
+  color: var(--black-text-color);
+  text-align: center;
+  font-family: "Libre Baskerville";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 145.455% */
+}
+
+/* hero--main4 css */
+
+.hero--main4 {
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+}
+
+.hero--main4 h1 {
+  color: var(--title-text-color);
+  text-align: center;
+  font-family: "Libre Baskerville";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: 64px;
+}
+
+.vegetables {
+  width: 1110px;
+  display: flex;
+  gap: 30px;
+  margin: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.vegetables img {
+  width: 255px;
+  height: 275.676px;
+  flex-shrink: 0;
+  transition: all 0.5s;
+}
+
+.vegetable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
+
+.vegetable img:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.vegetable p {
+  color: var(--title-text-color);
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 28.8px */
+}
+
+/* hero--main5 css */
+
+.hero--main5 {
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+  background: #f2eee9;
+}
+
+.life {
+  width: 1110px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 64px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 125px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video {
+  width: 540px;
+  height: 363px;
+  border-radius: 12px;
+  background: #bdbdbd;
+}
+
+.right-eating {
+  width: 445px;
+  height: auto;
+}
+
+.right-eating h2 {
+  width: 380px;
+  color: var(--title-text-color);
+  font-family: "Libre Baskerville";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 38.4px */
+  margin-bottom: 24px;
+}
+
+.right-eating p {
+  color: var(--black-text-color);
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 23.4px */
+  margin-bottom: 24px;
+}
+
+.right-eating button {
+  padding: 10px 22px;
+  background: #023f3a;
+  transition: all 0.5s;
+  color: #fff;
+  border: 2px solid #023f3a;
+}
+
+.right-eating button:hover {
+  border: 2px solid #023f3a;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #023f3a;
+}
+
+/* hero-main6 css  */
+
+.hero-main6 {
+  max-width: 1440px;
+  width: 100%;
+  height: 510px;
+  margin-top: 64px;
+}
+
+.Connection {
+  width: 1108px;
+  height: 510px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.left-address {
+  width: 550px;
+  height: 375px;
+  padding-top: 74px;
+}
+
+.left-address--top-part {
+  display: flex;
+}
+
+.top-part--one {
+  width: 260px;
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.left-address h1 {
+  color: var(--black-text-color);
+  font-family: "Libre Baskerville";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 38.4px */
+}
+
+.left-address a {
+  color: #525560;
+  font-family: "Josefin Sans";
+  text-decoration: none;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 28.6px */
+}
+
+.top-part--two {
+  width: 260px;
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.left-address--bottom-part {
+  display: flex;
+  margin-top: 39px;
+}
+
+.bottom-part--one {
+  width: 260px;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.bottom-part--two {
+  width: 260px;
+  height: 155px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.bottom-part--two a {
+  display: flex;
+  gap: 32px;
+}
+
+/*  hero-main6__right-address css */
+
+.right-address {
+  width: 554px;
+  height: 510px;
+  border-radius: 6px;
+  margin-top: 34px;
+  background: var(--white-900, #fff);
+
+  /* tailwind/drop-shadow-xl */
+  box-shadow: 0px 24px 48px -12px rgba(85, 105, 135, 0.06);
+}
+
+.right-address--wrap-up {
+  width: 480px;
+  height: auto;
+  margin: 38px;
+}
+
+form {
+  width: 474px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.email input {
+  display: flex;
+  width: 474px;
+  height: 46px;
+  padding: 10px 14px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  margin-top: 6px;
+  margin-bottom: 24px;
+}
+
+.message textarea {
+  resize: none;
+  display: flex;
+  width: 474px;
+  height: 220px;
+  padding: 10px 14px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 8px;
+  margin-top: 6px;
+  margin-bottom: 24px;
+}
+
+.right-address button {
+  width: 474px;
+  height: 56px;
+  background: #023f3a;
+  color: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(105, 81, 255, 0.05);
+  display: flex;
+  width: 474px;
+  height: 56px;
+  padding: 16px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border: 2px solid #023f3a;
+  margin: 0 auto;
+  transition: all 0.5s;
+}
+
+.right-address button:hover {
+  border: 2px solid #023f3a;
+  cursor: pointer;
+  background-color: transparent;
+  color: #023f3a;
+  border-radius: 5px;
+}
+
+/* footer css */
+
+.footer {
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+  background: #f8f6f4;
+  margin-top: 64px;
+  padding: 100px 183px 104px 183px;
+}
+
+.footer-container {
+  width: 1074px;
+  height: 323px;
+  margin: 0 auto;
+}
+
+.footer-container a {
+  text-decoration: none;
+}
+
+.footer-container li {
+  list-style: none;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ul-block {
+  width: 737px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.ul-block ul {
+  display: flex;
+  padding-right: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.ul-block a {
+  color: #222;
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 214.286% */
+  opacity: 0.8;
+}
+
+.title-a {
+  color: #222;
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer-ul4 a {
+  display: flex;
+  gap: 26px;
+  margin-top: 10px;
+}
+
+.line {
+  width: 1073px;
+  height: 1px;
+  flex-shrink: 0;
+  border: 1px solid #222;
+  opacity: 0.15;
+  background: #222;
+  margin-top: 55px;
+}
+
+.footer-date {
+  max-width: 1073px;
+  width: 100%;
+  height: 20px;
+}
+
+.footer-date a {
+  display: block;
+  color: #222;
+  text-align: center;
+  font-family: Josefin Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 30px;
+}
